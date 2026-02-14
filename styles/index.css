@@ -1,0 +1,168 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 0, 0);
+  padding-right: 110px;
+}
+header {
+  position: relative;
+  background-color: rgb(23, 23, 23);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  border-radius: 3px;
+  border: 2px solid white;
+}
+.header-link {
+  position: absolute;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: -2px;
+  top: -2px;
+  width: 95px;
+  border: 2px solid white;
+  border-radius: 3px 0px 3px 3px;
+  z-index: 300;
+}
+.links-button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 50px;
+}
+.links-button:active {
+  background-color: white;
+}
+.links {
+  color: white;
+  cursor: pointer;
+  margin-top: 4px;
+  margin-bottom: 11px;
+}
+.search-input {
+  margin: 0px 90px;
+  border-radius: 20px;
+  border: none;
+  height: 15px;
+  padding: 8px;
+  flex: 1;
+}
+h1,
+h4 {
+  color: white;
+}
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  background-color: rgb(59, 59, 59);
+  width: 100px;
+}
+.sidebar-button {
+  background-color: rgb(35, 153, 255);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-box {
+  border-radius: 5px;
+  background-color: white;
+  width: 300px;
+  padding: 15px;
+}
+.baosite {
+  font-size: 50px;
+  display: grid;
+  justify-content: center;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+.column1 {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.column2 {
+  background-color: lightblue;
+  width: 200px;
+}
+.column25 {
+  display: flex;
+  justify-content: space-between;
+}
+.profilebox {
+  display: block;
+  background-color: white;
+  width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  padding: 10px;
+}
+.profileoverview {
+  display: flex;
+  margin-top: 15px;
+}
+.email {
+  width: 400px;
+}
+.profilepic {
+  height: 50px;
+  border-radius: 25px;
+}
+.name-time {
+  display: flex;
+  justify-content: space-between;
+}
+.ad {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+.ad-discount {
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+  border-radius: 4px;
+}
+.add-to-cart-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  opacity: 0.8;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+}
+.add-to-cart-button {
+  background-color: white;
+  padding: 5px 10px;
+  border: 1px solid black;
+}
