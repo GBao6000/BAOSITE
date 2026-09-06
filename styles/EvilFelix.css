@@ -1,0 +1,49 @@
+body {
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+h3,
+p {
+  margin: 0.25rem 0;
+}
+.headline {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+.introduction-container {
+  display: flex;
+  padding: 0 3rem;
+  justify-content: center;
+}
+.proof-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 2rem;
+}
+.img-proof {
+  border: 0.125rem solid white;
+  margin: 0.25rem;
+}
+.math-proof-container {
+  position: relative;
+}
+.stalin-jumpscare-button {
+  position: absolute;
+  left: 30%;
+  bottom: 5%;
+  height: 3.75rem;
+  width: 6.5rem;
+  opacity: 0;
+}
+.stalin-jumpscare-button-2 {
+  position: absolute;
+  left: 68%;
+  bottom: 5%;
+  height: 3.75rem;
+  width: 6.5rem;
+  opacity: 0;
+}

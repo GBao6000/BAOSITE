@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 0, 0);
+  padding-right: 110px;
+  color: white;
+  font-size: 16px;
+}
+header {
+  position: relative;
+  background-color: rgb(23, 23, 23);
+  height: 3.125rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0.625rem;
+  border-radius: 0.625rem;
+  border: 0.125rem solid white;
+}
+.header-link {
+  position: absolute;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  left: -0.125rem;
+  top: -0.125rem;
+  width: 6rem;
+  border: 0.125rem solid white;
+  border-radius: 0.625rem 0 0 0.625rem;
+  z-index: 300;
+}
+.links-button {
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 3.125rem;
+}
+.links-button:active {
+  background-color: white;
+}
+.links {
+  color: white;
+  cursor: pointer;
+  margin-top: 0.25rem;
+  margin-bottom: 0.6875rem;
+}
+.searchbar {
+  margin: 0px 5.625rem;
+  border-radius: 1.25rem;
+  border: none;
+  height: 1rem;
+  padding: 0.5rem;
+  flex: 1;
+}
+h1,
+h4 {
+  color: white;
+}
+.introduction-container {
+  display: flex;
+  gap: 12.5rem;
+}
+.sidebar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(31, 31, 31);
+  width: 6.25rem;
+}
+.sidebar-button {
+  background-color: rgb(35, 153, 255);
+  color: white;
+  border: none;
+  border-radius: 0.33334rem;
+  margin: 0.625rem;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 301;
+}
+.evil-site {
+  text-decoration: none;
+  color: rgb(150, 150, 150);
+  position: fixed;
+  bottom: 3.75rem;
+  left: 0.625rem;
+  z-index: 302;
+}
+.baosite {
+  padding: 0;
+  font-size: 3.875rem;
+  display: grid;
+  justify-content: center;
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles/Zeitmanagement.css" />
+    <title>Timemanagement</title>
+  </head>
+  <body>
+    <div class="todo-manager-container">
+      <div class="category-container">
+        <div class="private-container">
+          <div class="private-button-container">
+            <p class="private-text">Private</p>
+            <button class="add-private-button">+</button>
+          </div>
+          <a class="category-link" href="Zeitmanagement.html">
+            Zeitmanagement
+          </a>
+          <a class="category-link">Persönlich</a>
+          <a class="category-link">Wunschzettel</a>
+          <a class="category-link">Geburtstag</a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <button class="category-button">Alle</button>
+      <button class="category-button">Arbeit</button>
+      <button class="category-button">Persönlich</button>
+      <button class="category-button">Wusnchzettel</button>
+      <button class="category-button">Geburtstag</button>
+      <button class="add-category-button">+</button>
+    </div>
+    <h2>Aktivitätenliste</h2>
+    <table class="task-container">
+      <tr>
+        <th>Aktivität</th>
+        <th>Dauer (in h)</th>
+        <th>Priorität</th>
+        <th>Beschreibung</th>
+      </tr>
+      <tr>
+        <td><input placeholder="+ Neue Aktivität" /></td>
+        <td><input placeholder="+ Zeit" /></td>
+        <td><input placeholder="+ Priorität" /></td>
+        <td><input placeholder="+ Beschreibung" /></td>
+      </tr>
+    </table>
+    <button class="create-activity">Add Activity</button>
+  </body>
+</html>

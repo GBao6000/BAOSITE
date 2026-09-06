@@ -1,0 +1,52 @@
+html {
+  font-size: 100%;
+}
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.todo-manager-container {
+  background-color: rgb(39, 39, 39);
+  border-right: 1px solid rgb(97, 97, 97);
+  position: absolute;
+  width: 15rem;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.category-link {
+  margin: 0.2rem;
+  background-color: rgb(28, 28, 28);
+  border: none;
+  color: white;
+  padding: 0.625rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  width: 12rem;
+  height: 2rem;
+  display: flex;
+  text-decoration: none;
+}
+.private-text {
+  color: rgb(140, 140, 140);
+}
+.private-container {
+  border-bottom: 1px solid rgb(97, 97, 97);
+  padding: 0.6rem;
+}
+.private-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add-private-button {
+  font-size: 1.5rem;
+  background-color: rgb(39, 39, 39);
+  color: rgb(140, 140, 140);
+  border: none;
+}
